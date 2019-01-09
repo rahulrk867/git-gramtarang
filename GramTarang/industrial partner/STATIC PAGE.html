@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type ="image/png" href ="logo.png"/>
+<link href="style.css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Industrial partner
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="yamaha.html">Yamaha</a></li>
+      <li><a href="ccd.html">CCD</a></li>
+      <li><a href="hyundai.html">Hyundai</a></li>
+      <li><a href="godrej.html">Godrej</a></li>
+    </ul>
+  </div>
+ </div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;OPEN</span>
+
+<div style="padding-left:16px">
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>

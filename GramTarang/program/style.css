@@ -1,0 +1,48 @@
+.section_title
+{
+    font-size: 20px; 
+    color: #222222;
+    text-align: center;
+}
+.event_title {
+    font-size: 24px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 600;
+    padding-top: 30px;
+  }
+  
+  .event_title:hover {
+    color: #00c8e6;
+  }
+  
+  .event_post img {
+    max-width: 100%;
+  }
+  
+  .event_post .event_category {
+    padding-bottom: 20px;
+  }
+  
+  .event_category li {
+    padding-bottom: 8px;
+  }
+  
+  .event_category li i {
+    font-weight: 600;
+    color: #222222;
+  }
+
+  .event_details_area .event_category {
+    padding: 0px;
+  }
+  
+  .event_details {
+    padding-top: 16px;
+  }
+  
+  .event_details p {
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+  
